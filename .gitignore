@@ -1,5 +1,7 @@
 .vscode/
 *egg-info/
 __pycache__/
+dist/
+publishing.txt
 
 .DS_Store

@@ -42,6 +42,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Guilherme Miotto",
     packages=find_packages(exclude=["tests", ".github"]),
+    include_package_data=True,
     install_requires=read_requirements("requirements.txt"),
     # entry_points={
     #     "console_scripts": ["project_name = project_name.__main__:main"]
